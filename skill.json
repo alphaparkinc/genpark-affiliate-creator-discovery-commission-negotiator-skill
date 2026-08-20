@@ -1,0 +1,35 @@
+{
+  "name": "genpark-affiliate-creator-discovery-commission-negotiator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - High-converting affiliate creator discovery engine & automated commission deal negotiator.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "affiliate-discovery",
+    "commission-negotiator",
+    "creator-crm",
+    "influencer-affiliate",
+    "livelab"
+  ],
+  "inputs": {
+    "product_category": {
+      "type": "string"
+    },
+    "max_commission_rate_pct": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "targeted_affiliates_count": {
+      "type": "integer"
+    },
+    "negotiated_deals": {
+      "type": "array"
+    },
+    "projected_affiliate_gmv_usd": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
